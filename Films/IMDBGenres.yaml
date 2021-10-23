@@ -42,7 +42,7 @@ collections:
   DC Extended Universe:
     template: { name: Other Genre }
     summary: Films based on characters that appeared in American comic books by DC Comics
-    poster_url: https://theposterdb.com/api/assets/81748/view
+    url_poster: https://theposterdb.com/api/assets/81748/view
     trakt_list:
       - https://trakt.tv/users/graham-a-r/lists/dc-extended-universe
       - https://trakt.tv/users/tetharion/lists/worlds-of-dc
@@ -78,7 +78,7 @@ collections:
   Marvel:
     template: { name: Other Genre }
     summary: Films based on characters that appeared in American comic books by Marvel Comics
-    poster_url: https://theposterdb.com/api/assets/9326/view?
+    url_poster: https://theposterdb.com/api/assets/9326/view?
     trakt_list:
       - https://trakt.tv/users/graham-a-r/lists/marvel
       - https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
