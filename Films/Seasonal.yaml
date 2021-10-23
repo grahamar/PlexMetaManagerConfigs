@@ -8,6 +8,7 @@ templates:
     smart_label: title.asc
     visible_home: true
     visible_shared: true
+    collection_mode: show_items
 collections:
   Christmas:
     template: { name: Holiday }

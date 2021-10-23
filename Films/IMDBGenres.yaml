@@ -14,11 +14,19 @@ templates:
     sort_title: +3_<<collection_name>>
     sync_mode: sync
     smart_label: random
-    # schedule: weekly(sunday)
+    collection_mode: show_items
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+    schedule: weekly(sunday)
   Other Genre:
     sort_title: +3_<<collection_name>>
     sync_mode: sync
     smart_label: random
+    collection_mode: show_items
+    visible_library: true
+    visible_home: false
+    visible_shared: false
     # schedule: weekly(sunday)
 collections:
   Action:
@@ -42,7 +50,7 @@ collections:
   DC Extended Universe:
     template: { name: Other Genre }
     summary: Films based on characters that appeared in American comic books by DC Comics
-    url_poster: https://theposterdb.com/api/assets/81748/view
+    url_poster: https://theposterdb.com/api/assets/9326/view
     trakt_list:
       - https://trakt.tv/users/graham-a-r/lists/dc-extended-universe
       - https://trakt.tv/users/tetharion/lists/worlds-of-dc
@@ -61,6 +69,7 @@ collections:
       - https://www.imdb.com/list/ls026270180/
       - https://www.imdb.com/list/ls000093502/
     summary: Gangster film is a sub-genre of crime films that center on organized crime or the mafia. Often the plot revolves around the rise and fall of an organized crime leader. Many Gangster films explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters.
+    schedule: weekly(sunday)
   History:
     template: { name: IMDb Genre, genre: history }
     summary: History film is a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History film is often accentuated by a sweeping musical score, lavish costumes, and high production value.
@@ -75,10 +84,11 @@ collections:
       - https://www.imdb.com/list/ls068378513/
       - https://www.imdb.com/list/ls090404120/
     summary: Martial Arts film is a sub-genre of action films that feature numerous martial arts combat between characters. These combats are usually the films' primary appeal and entertainment value, and often are a method of storytelling and character expression and development. Martial Arts are frequently featured in training scenes and other sequences in addition to fights. Martial Arts films commonly include other types of action, such as hand-to-hand combat, stuntwork, chases, and gunfights.
+    schedule: weekly(sunday)
   Marvel:
     template: { name: Other Genre }
     summary: Films based on characters that appeared in American comic books by Marvel Comics
-    url_poster: https://theposterdb.com/api/assets/9326/view?
+    url_poster: https://theposterdb.com/api/assets/81748/view
     trakt_list:
       - https://trakt.tv/users/graham-a-r/lists/marvel
       - https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
@@ -91,6 +101,7 @@ collections:
   Romance:
     template: { name: IMDb Genre, genre: romance, limit: 200 }
     summary: "Romance film can be defined as a genre wherein the plot revolves around the love between two protagonists. This genre usually has a theme that explores an issue within love, including but not limited to: love at first sight, forbidden love, love triangles, and sacrificial love. The tone of Romance film can vary greatly. Whether the end is happy or tragic, Romance film aims to evoke strong emotions in the audience."
+    schedule: weekly(sunday)
   Romantic Comedy:
     template: { name: IMDb Genre, genre: "romance,comedy", limit: 200 }
     summary: Romantic Comedy is a genre that attempts to catch the viewer’s heart with the combination of love and humor. This sub-genre is light-hearted and usually places the two protagonists in humorus situation. Romantic-Comedy film revolves around a romantic ideal, such as true love. In the end, the ideal triumphs over the situation or obstacle, thus creating a happy ending.
@@ -117,3 +128,4 @@ collections:
   Western:
     template: { name: IMDb Genre, genre: western, limit: 200 }
     summary: "Western Film is a genre that revolves around stories primarily set in the late 19th century in the American Old West. Most Westerns are set between the American Civil War (1865) and the early 1900s. Common themes within Western Film include: the conquest of the wild west, the cultural separation of the East and the West, the West’s resistance to modern change, the conflict between Cowboys and Indians, outlaws, and treasure/gold hunting. American Western Film usually revolves around a stoic hero and emphasizes the importance of honor and sacrifice."
+    schedule: weekly(sunday)
