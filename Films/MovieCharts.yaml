@@ -19,8 +19,8 @@ collections:
     summary: Movies Trending across the internet
   Popular:
     template: { name: Chart, num: 3 }
-    trakt_popular: 30
-    tmdb_popular: 20
+    trakt_popular: 40
+    # tmdb_popular: 20
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
       limit: 40

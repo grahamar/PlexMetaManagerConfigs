@@ -14,12 +14,12 @@ templates:
     sort_title: +3_<<collection_name>>
     sync_mode: sync
     smart_label: random
-    schedule: weekly(sunday)
+    # schedule: weekly(sunday)
   Other Genre:
     sort_title: +3_<<collection_name>>
     sync_mode: sync
     smart_label: random
-    schedule: weekly(sunday)
+    # schedule: weekly(sunday)
 collections:
   Action:
     template: { name: IMDb Genre, genre: action }

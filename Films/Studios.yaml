@@ -9,7 +9,7 @@ templates:
     sort_title: +2_<<collection_name>>
     sync_mode: sync
     smart_label: release.desc
-    schedule: weekly(sunday)
+    # schedule: weekly(sunday)
 collections:
   Aardman:
     template: { name: Studio, company: 297 }
