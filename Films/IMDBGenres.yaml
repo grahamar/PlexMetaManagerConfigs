@@ -39,6 +39,13 @@ collections:
   Documentary:
     template: { name: IMDb Genre, genre: documentary, title: documentary }
     summary: Documentary film is a non-fiction genre intended to document reality primarily for the purposes of instruction, education, or maintaining a historical record.
+  DC Extended Universe:
+    template: { name: Other Genre }
+    summary: Films based on characters that appeared in American comic books by DC Comics
+    poster_url: https://theposterdb.com/api/assets/81748/view
+    trakt_list:
+      - https://trakt.tv/users/graham-a-r/lists/dc-extended-universe
+      - https://trakt.tv/users/tetharion/lists/worlds-of-dc
   Drama:
     template: { name: IMDb Genre, genre: drama }
     summary: Drama film is a genre that relies on the emotional and relational development of realistic characters. While Drama film relies heavily on this kind of development, dramatic themes play a large role in the plot as well. Often, these dramatic themes are taken from intense, real life issues. Whether heroes or heroines are facing a conflict from the outside or a conflict within themselves, Drama film aims to tell an honest story of human struggles.
@@ -68,6 +75,13 @@ collections:
       - https://www.imdb.com/list/ls068378513/
       - https://www.imdb.com/list/ls090404120/
     summary: Martial Arts film is a sub-genre of action films that feature numerous martial arts combat between characters. These combats are usually the films' primary appeal and entertainment value, and often are a method of storytelling and character expression and development. Martial Arts are frequently featured in training scenes and other sequences in addition to fights. Martial Arts films commonly include other types of action, such as hand-to-hand combat, stuntwork, chases, and gunfights.
+  Marvel:
+    template: { name: Other Genre }
+    summary: Films based on characters that appeared in American comic books by Marvel Comics
+    poster_url: https://theposterdb.com/api/assets/9326/view?
+    trakt_list:
+      - https://trakt.tv/users/graham-a-r/lists/marvel
+      - https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
   Musical:
     template: { name: IMDb Genre, genre: musical, limit: 200 }
     summary: A Musical interweaves vocal and dance performances into the narrative of the film. The songs of a film can either be used to further the story or simply enhance the experience of the audience. These films are often done on a grand scale and incorporate lavish costumes and sets. Traditional musicals center on a well-known star, famous for their dancing or singing skills (i.e. Fred Astaire, Gene Kelly, Judy Garland). These films explore concepts such are love and success, allowing the audience to escape from reality.
