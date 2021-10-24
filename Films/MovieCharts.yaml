@@ -13,8 +13,8 @@ templates:
 collections:
   Trending:
     template: { name: Chart, num: 2 }
-    trakt_trending: 40
-    trakt_watched: 40
+    trakt_trending: 50
+    trakt_watched: 50
     tmdb_trending_daily: 20
     tmdb_trending_weekly: 20
     summary: Movies Trending across the internet
@@ -23,9 +23,9 @@ collections:
     summary: Popular Movies across the internet
     trakt_popular: 40
     tmdb_popular: 20
-    # imdb_list:
-    #   url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
-    #   limit: 40
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
+      limit: 40
   Top Rated:
     template: { name: Chart, num: 4 }
     imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
